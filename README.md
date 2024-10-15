@@ -53,3 +53,34 @@ If for any reason the database becomes unusable, you can rebuild it using `./res
 ## The task
 
 All the instructions are available [here](https://www.notion.so/stotles/Full-stack-software-engineer-work-sample-assignment-ae7c64e08f2a42a097d16cee4bc661fc).
+
+## Comments by Dhanya
+
+# Improvements that could have been done if time permitted
+1. Adding tests
+2. Adding a CI/CD pipeline
+3. Refactoring RecordSearchFilter and Preview page
+4. Functionality wise - Making Buyers Filter multiple instead of single , having a search 
+5. Making the title show elipsis 
+6. Having search for buyer as well
+7. Having sort on necessary columns
+8. Stress testing by adding more data 
+9. DB Wise some more corrections , why some columns are strings and not numbers , placement of buyer Id
+10. Altering the pagination logic [[based on stress test results]] , moving the search out separately
+11. Folder restructure
+12. Logging persisted (for reference)
+
+
+# Changes done
+1. Adding title to be searched as well
+2. Adding Value of tender (Some issues were noted when currency added and thus handled)
+3. Adding logic for the date (Future date tested)
+4. Adding Buyer Filter (New component)
+5. Cleaning up the server/client side main to add try catch , add some validations
+6. USing ORM instead of query
+7. Clean up of the rendering the records so that there is a loading symbol
+8. Screens shots attached for proof
+
+
+
+
