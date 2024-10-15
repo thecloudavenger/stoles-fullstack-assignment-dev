@@ -65,8 +65,8 @@ All the instructions are available [here](https://www.notion.so/stotles/Full-sta
 6. Having search for buyer as well
 7. Having sort on necessary columns
 8. Stress testing by adding more data 
-9. DB Wise some more corrections , why some columns are strings and not numbers , placement of buyer Id
-10. Altering the pagination logic [[based on stress test results]] , moving the search out separately
+9. DB Wise some more corrections , why some columns are strings and not numbers , placement of buyer Id , date (UTC?)
+10. Altering the pagination logic , though offset is ok now (validation of it is not done and better to get a specific block of data better) [[based on stress test results]] , moving the search out separately
 11. Folder restructure
 12. Logging persisted (for reference)
 
